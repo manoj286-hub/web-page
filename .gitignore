@@ -1,0 +1,32 @@
+# --- IGNORE RAW DATA ---
+# This contains your heavy FASTQ files (Input).
+raw_files/
+
+# --- IGNORE DATABASE FOLDERS ---
+# Your script's "Step 0" builds this automatically. No need to upload.
+data/
+
+# --- IGNORE OUTPUT FOLDERS ---
+# We want the user to generate these results themselves.
+01_raw_QC/
+02_trimmomatic/
+03_alignment/
+04_variants/
+05_filtered_vcfs/
+06_annoted_snpeff_vcf/
+07_mdr_analysis_snpsift/
+
+# --- IGNORE LARGE FILES ---
+# Safety net to stop huge files from slipping in.
+*.fastq.gz
+*.fq.gz
+*.bam
+*.sam
+*.vcf
+*.bai
+*.bin
+*.idx
+
+# --- IGNORE JUNK FILES ---
+__pycache__/
+.DS_Store
