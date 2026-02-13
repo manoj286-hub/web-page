@@ -64,7 +64,7 @@ Python 3 (with pandas library)
 Download the pipeline to your local machine:
 
 Bash
-git clone https://github.com/YOUR-USERNAME/MDR-Genomic-Analysis.git
+git clone https://github.com/manoj286-hub/MDR-Genomic-Analysis.git
 cd MDR-Genomic-Analysis
 2. Install Dependencies
 We have provided an environment.yml to create the exact Conda environment used in this project:
